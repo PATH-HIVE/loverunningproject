@@ -14,13 +14,20 @@ min-height: 100vh;
 display: flex;
 flex-direction: column;
 /* Generic Project Style */
-color: #3a3a3a
+color: #3a3a3a;
+
+font-family:'lato', sans-sarif;
 }
 
 
 /* Header */
 header {
     background-color: lightcoral;
+}
+
+h1 {
+font-family: 'oswald', sans-serif;
+
 }
 /* Main content */
 main {
