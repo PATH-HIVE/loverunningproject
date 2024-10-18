@@ -74,11 +74,20 @@ nav {
     display: block;
 }
 
+#nav-toggle {
+display:none;
+
+.nav-toggle-label {
+font-size: 2rem;
+}
+
+}
 /* Main content */
 main {
   background-color: lightblue;
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
+  margin-top: 47;
 }
 /* Footer */
 footer {
