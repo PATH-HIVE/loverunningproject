@@ -76,18 +76,26 @@ nav {
 
 #nav-toggle {
 display:none;
+}
 
 .nav-toggle-label {
 font-size: 2rem;
 }
 
-}
+
 /* Main content */
 main {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
   margin-top: 47;
+}
+/* Hero section */
+#hero {
+height: 600px;
+width:100%;
+/* background-color:red; */
+background: url("../images/loverunning.jpg") no-repeat center center/cover;
 }
 /* Footer */
 footer {
